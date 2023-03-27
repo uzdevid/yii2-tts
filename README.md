@@ -35,7 +35,7 @@ config/web.php faylga quyidagi qatorlarni qo'shing:
     'tts' => [
         'class' => \uzdevid\TTS\TTS::class,
         'token'=> 'avtorizatsiya tokeni',
-        'project_id' => 'loyihangiz-identifikatori',
+        'projectId' => 'loyihangiz-identifikatori',
         'voice' => \uzdevid\TTS\TTSOptions::VOICE_MALE,
         'enableCache' => true,
         'cacheDuration' => 3600 * 24 * 30,
